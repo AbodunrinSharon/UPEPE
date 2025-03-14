@@ -78,8 +78,8 @@ EQuery(function () {
 
     EQuery(document).ready(function () {
         let display = window.display = new Display();
-        display.addrBox.text('0x64c5cbA9A1BfBD2A5faf601D91Beff2dCac2c974');
+        display.addrBox.text('0x64c5cbA9A1BfBD2A5faf601D91Beff2dCac2c974');        // xD
         updateDisplay(display);
-        addEventListeners(display);alert('f')
+        addEventListeners(display);
     });
 });
